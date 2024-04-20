@@ -10,10 +10,9 @@ print(student.values())
 print(student.items())
 
 for key, value in student.items():
-    # n1 = key
-    # n2 = value
-    print(key, value)
-
+   
+    print("This is the %s: %s pair " % (key, value)) #modulo string formatting
+    print(f'This is the {key} and {value}')  # f string string-interpolation
 
 
 
