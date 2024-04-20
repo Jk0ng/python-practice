@@ -6,7 +6,7 @@ def absolute_value(x):
     elif x > 0:
         return x
     elif x < 0: 
-        return - 0 
+        return - x 
     else: 
         return 'error'
     
@@ -22,7 +22,6 @@ def fibonacci(n):
         prev, curr = curr, prev + curr
         k = k + 1
     return curr
-    
 
 print(fibonacci(6))
 print(fibonacci(7))
