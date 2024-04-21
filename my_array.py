@@ -42,3 +42,4 @@ set1 = {True, 1, 0, False}
 print(thisset)
 print(set1)
 print(len(set1))
+
