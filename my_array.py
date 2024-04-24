@@ -15,6 +15,7 @@ this_list = ['apple', 'banana', 'orange', 'apple']
 print(this_list)
 #negative index prints data staring from the last index
 print(this_list[-1])
+print(this_list[1])
 
 
 
