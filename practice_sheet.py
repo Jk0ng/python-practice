@@ -104,4 +104,11 @@ ball_list2 = [ reply if reply == "basketball" else "no" for reply in my_list]
 # print(ball_list)
 print(ball_list2)
 
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+list3 = list1.append(list2)
 
+print(type(list3))
+print(list3)
+print(type(list1))
+print(list1)
