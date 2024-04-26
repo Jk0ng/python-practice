@@ -13,6 +13,12 @@ print(list_example)
 
 this_list = ['apple', 'banana', 'orange', 'apple']
 print(this_list)
+#negative index prints data staring from the last index
+print(this_list[-1])
+print(this_list[1])
+
+
+
 
 # tuple 
 # use round bracket ()
@@ -42,3 +48,4 @@ set1 = {True, 1, 0, False}
 print(thisset)
 print(set1)
 print(len(set1))
+
